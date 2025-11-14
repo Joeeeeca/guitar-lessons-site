@@ -24,7 +24,7 @@ export default function AboutHero() {
           {/* IMAGE */}
           <div className="relative aspect-4/3 md:h-[420px] rounded-2xl overflow-hidden">
             <img
-              src={`${import.meta.env.BASE_URL}images/about-hero.webp`}
+              src={`${import.meta.env.BASE_URL}images/about_me.webp`}
               alt="George Capon teaching guitar in his studio"
               loading="lazy"
               decoding="async"
