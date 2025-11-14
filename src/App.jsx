@@ -38,14 +38,14 @@ function DefaultSEO() {
       />
 
       {/* PWA */}
-      <link rel="manifest" href="/manifest.json" />
+      <link rel="manifest" href="https://joeeeeca.github.io/guitar-lessons-site/manifest.json" />
     </Helmet>
   )
 }
 
 function App() {
   return (
-    <Router>
+    <Router basename="/guitar-lessons-site">
       <DefaultSEO />
 
       <Header />
