@@ -34,7 +34,7 @@ export function Welcome() {
           {/* VIDEO */}
           <div className="relative aspect-video rounded-lg overflow-hidden bg-muted">
             <video
-              src="/video/Introduction_video.mp4"
+              src={`${import.meta.env.BASE_URL}video/Introduction_video.mp4`}
               controls
               preload="metadata"
               playsInline

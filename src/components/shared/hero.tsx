@@ -67,7 +67,7 @@ export function Hero() {
           {/* IMAGE */}
           <div className="relative aspect-4/5 sm:aspect-3/4 lg:aspect-auto lg:h-[500px] rounded-lg overflow-hidden bg-muted">
             <img
-              src="/images/Hero_image.webp"
+              src={`${import.meta.env.BASE_URL}images/Hero_image.webp`}
               alt="George Capon teaching guitar during an online lesson"
               loading="eager"
               fetchPriority="high"
